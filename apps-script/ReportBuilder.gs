@@ -8,6 +8,11 @@ function formatMoney_(amount) {
   return (n < 0 ? '-$' : '$') + formatted;
 }
 
+function percentCell_(planned, actual) {
+  var pct = percentDelta_(planned, actual);
+  return isFinite(pct) ? pct : '';
+}
+
 function formatPct_(pct) {
   if (!isFinite(pct)) {
     return 'n/a (no planned amount)';
@@ -117,7 +122,7 @@ function writeReportSheet(ss, analysis, body) {
           item.actual,
           item.planned,
           item.actual - item.planned,
-          percentDelta_(item.planned, item.actual),
+          percentCell_(item.planned, item.actual),
           '',
           formatMoney_(item.actual) + ' (Actual) vs ' + formatMoney_(item.planned) + ' (Planned)'
         ]);
@@ -127,7 +132,7 @@ function writeReportSheet(ss, analysis, body) {
   });
   if (rows.length) {
     sheet.getRange(start + 1, 1, rows.length, tableHeader.length).setValues(rows);
-    sheet.getRange(start + 1, 2, rows.length, 4).setNumberFormat('$#,##0.00');
+    sheet.getRange(start + 1, 2, rows.length, 3).setNumberFormat('$#,##0.00');
     sheet.getRange(start + 1, 5, rows.length, 1).setNumberFormat('0.0%');
   }
   var textStart = start + rows.length + 3;

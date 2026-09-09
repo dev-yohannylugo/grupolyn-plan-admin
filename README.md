@@ -29,7 +29,7 @@ Ejemplo (datos reales de Jan 2025 en la plantilla): Food & Supplies queda over b
 
 La lógica vive en archivos separados (`Config`, `AuthService`, `MenuService`, `BudgetParser`, `VarianceAnalyzer`, `ReportBuilder`, `GmailDraftService`). El bound script de demostración incluye todo el código para que el menú funcione sin configurar una library ID.
 
-Para N copias de clientes, el mismo código se publica como **Master Script Library** (`GrupoLynFinanceLib`). Cada hoja solo necesita el stub en `bound-stub/Code.gs`. `apps-script/deploy/MassDeploy.gs` vincula la librería a una lista de URLs vía Apps Script API.
+Para N copias de clientes, el mismo código se publica como **Master Script Library** (`GrupoLynFinanceLib`). El bootstrap y el enlace a la librería están en `apps-script/deploy/MassDeploy.gs`.
 
 ## Parser de Monthly Budget
 

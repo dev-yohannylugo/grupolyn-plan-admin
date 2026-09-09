@@ -289,7 +289,7 @@ No hay servidor web de la app en este workspace: la verificación será en Googl
 
 1. `gh auth status` para confirmar tu usuario.
 2. `gh repo create` privado, origin en esa cuenta (no org de Cursor).
-3. Push de `apps-script/`, README, y notas de despliegue.
+3. Push de `apps-script/`, README y `docs/`.
 4. En el README de Drive, pegar la URL del repo e indicar que es **privado** y hay que invitar al revisor.
 
 En el README: versión **2.4**, PIN default `GrupoLyn2026`, umbral 15%, límites de seguridad, deployer, mapa de `Monthly Budget`. Tono: problema → diseño (librería + stub) → por qué (N clientes) → supuestos.
