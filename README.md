@@ -7,10 +7,10 @@ Automatización de la plantilla DSM PROSPR Plan: menú **Admin**, reporte compar
 - Copia de la plantilla en Google Drive personal (`yohannylugo88@gmail.com`), Cover en **Version 2.4**.
   - Hoja: https://docs.google.com/spreadsheets/d/1f4oapQZvQt8RRobKEcICEt-RcNKsLv90QSv_wNLR5ms/edit
   - Carpeta: https://drive.google.com/drive/folders/1Y85yoeS1-k7dI_VxmyFumjMqO9waYZ9S
-- Código Apps Script modular (este repositorio).
+- Código Apps Script modular: repositorio privado https://github.com/dev-yohannylugo/grupolyn-plan-admin (invitar al evaluador).
 - PIN de administrador por defecto: `GrupoLyn2026` (cambiable desde el menú).
 
-Para ligar el código a la hoja (clasp), activa la Apps Script API y sigue [docs/INSTALL.md](docs/INSTALL.md).
+Para ligar el código a la hoja, el proyecto bound ya está creado: https://script.google.com/d/1JX9h0KVMX28RMq4WNWfUaaNwo3gpY0sRKomTBiFrDX3yx5t0IEf6UDMO/edit — recarga la hoja para ver el menú **Admin**. Detalles en [docs/INSTALL.md](docs/INSTALL.md).
 
 ## Cómo probar
 

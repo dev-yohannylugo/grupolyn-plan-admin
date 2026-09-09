@@ -14,9 +14,10 @@ Carpeta: https://drive.google.com/drive/folders/1Y85yoeS1-k7dI_VxmyFumjMqO9waYZ9
 
 ```bash
 cd apps-script
-npx clasp create --title "GrupoLyN Admin v2.4" --parentId 1f4oapQZvQt8RRobKEcICEt-RcNKsLv90QSv_wNLR5ms
-npx clasp push --force
+npx clasp push
 ```
+
+El proyecto bound ya existe: https://script.google.com/d/1JX9h0KVMX28RMq4WNWfUaaNwo3gpY0sRKomTBiFrDX3yx5t0IEf6UDMO/edit
 
 4. Recarga la hoja. Debe aparecer el menú **Admin**.
 5. Unlock con PIN `GrupoLyn2026`.

@@ -16,7 +16,7 @@
  *  4. Run deployToClientList() (from Admin after unlock, or from the script editor).
  */
 var DEPLOY_CONFIG = {
-  LIBRARY_ID: 'REPLACE_WITH_MASTER_LIBRARY_SCRIPT_ID',
+  LIBRARY_ID: '1JX9h0KVMX28RMq4WNWfUaaNwo3gpY0sRKomTBiFrDX3yx5t0IEf6UDMO',
   LIBRARY_SYMBOL: 'GrupoLynFinanceLib',
   LIBRARY_VERSION: 0,
   CONSOLE_SHEET: 'Deploy Console',
