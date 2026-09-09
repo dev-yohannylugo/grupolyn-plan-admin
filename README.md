@@ -5,12 +5,12 @@ Automatización de la plantilla DSM PROSPR Plan: menú **Admin**, reporte compar
 ## Qué se entrega
 
 - Copia de la plantilla en Google Drive personal (`yohannylugo88@gmail.com`), Cover en **Version 2.4**.
-  - Hoja: https://docs.google.com/spreadsheets/d/1f4oapQZvQt8RRobKEcICEt-RcNKsLv90QSv_wNLR5ms/edit
-  - Carpeta: https://drive.google.com/drive/folders/1Y85yoeS1-k7dI_VxmyFumjMqO9waYZ9S
-- Código Apps Script modular: repositorio privado https://github.com/dev-yohannylugo/grupolyn-plan-admin (invitar al evaluador).
+  - Hoja: [https://docs.google.com/spreadsheets/d/1f4oapQZvQt8RRobKEcICEt-RcNKsLv90QSv_wNLR5ms/edit](https://docs.google.com/spreadsheets/d/1f4oapQZvQt8RRobKEcICEt-RcNKsLv90QSv_wNLR5ms/edit)
+  - Carpeta: [https://drive.google.com/drive/folders/1Y85yoeS1-k7dI_VxmyFumjMqO9waYZ9S](https://drive.google.com/drive/folders/1Y85yoeS1-k7dI_VxmyFumjMqO9waYZ9S)
+- Código Apps Script modular: repositorio privado [https://github.com/dev-yohannylugo/grupolyn-plan-admin](https://github.com/dev-yohannylugo/grupolyn-plan-admin) (invitar al evaluador).
 - PIN de administrador por defecto: `GrupoLyn2026` (cambiable desde el menú).
 
-Para ligar el código a la hoja, el proyecto bound ya está creado: https://script.google.com/d/1JX9h0KVMX28RMq4WNWfUaaNwo3gpY0sRKomTBiFrDX3yx5t0IEf6UDMO/edit — recarga la hoja para ver el menú **Admin**. Detalles en [docs/INSTALL.md](docs/INSTALL.md). El plan técnico de la prueba está en [docs/PLAN.md](docs/PLAN.md).
+Para ligar el código a la hoja, el proyecto bound ya está creado: [https://script.google.com/d/1JX9h0KVMX28RMq4WNWfUaaNwo3gpY0sRKomTBiFrDX3yx5t0IEf6UDMO/edit](https://script.google.com/d/1JX9h0KVMX28RMq4WNWfUaaNwo3gpY0sRKomTBiFrDX3yx5t0IEf6UDMO/edit) — recarga la hoja para ver el menú **Admin**. Detalles en [docs/INSTALL.md](docs/INSTALL.md). El plan técnico de la prueba está en [docs/PLAN.md](docs/PLAN.md).
 
 ## Cómo probar
 
@@ -46,7 +46,12 @@ La columna Variance de la plantilla es Budget − Actual. El texto del reporte u
 - El repositorio GitHub es **privado**; el evaluador necesita invitación o el código vía Drive.
 - El deployer masivo requiere Apps Script API habilitada y el `LIBRARY_ID` real tras publicar la librería.
 
+
+
 ## PIN y versión
 
 - Default: `GrupoLyn2026` (se persiste en Script Properties en el primer `onOpen`).
 - Versión de plantilla: **2.4**.
+
+  
+Nota: vale la pena destacar, que no creaba codigo para hojas de calculo desde hace mas de 7 años cuando programe un excel con datos de directus para un cashflow inicial...  aunque realmente no sabia por donde empezar, siempre trabajo asi,  IA-first... leo lo que me recomienda, voy ajustando, y al final pruebo todo... en este caso, a pesar de los años que tengo sin programar una hoja de calculo, en especial Google Sheets que nunca antes la habia usado para programarle, pude cumplir con el objetivo... 
