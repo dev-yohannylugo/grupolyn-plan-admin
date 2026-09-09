@@ -1,0 +1,12 @@
+{
+  "name": "grupolyn-plan-admin",
+  "private": true,
+  "description": "GrupoLyN DSM PROSPR Plan Admin menu and monthly comparative report (v2.4)",
+  "scripts": {
+    "clasp:create": "clasp create --title \"GrupoLyN Admin v2.4\" --parentId 1f4oapQZvQt8RRobKEcICEt-RcNKsLv90QSv_wNLR5ms",
+    "clasp:push": "clasp push --force"
+  },
+  "devDependencies": {
+    "@google/clasp": "^3.3.0"
+  }
+}

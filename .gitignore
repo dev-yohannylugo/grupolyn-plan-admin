@@ -1,0 +1,9 @@
+.tmp-grupolyn.xlsx
+.clasp.json
+.clasprc.json
+.drive-state.json
+node_modules/
+.DS_Store
+*.log
+token.json
+credentials.json
