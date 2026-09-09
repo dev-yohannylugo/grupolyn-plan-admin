@@ -10,7 +10,7 @@ Automatización de la plantilla DSM PROSPR Plan: menú **Admin**, reporte compar
 - Código Apps Script modular: repositorio privado https://github.com/dev-yohannylugo/grupolyn-plan-admin (invitar al evaluador).
 - PIN de administrador por defecto: `GrupoLyn2026` (cambiable desde el menú).
 
-Para ligar el código a la hoja, el proyecto bound ya está creado: https://script.google.com/d/1JX9h0KVMX28RMq4WNWfUaaNwo3gpY0sRKomTBiFrDX3yx5t0IEf6UDMO/edit — recarga la hoja para ver el menú **Admin**. Detalles en [docs/INSTALL.md](docs/INSTALL.md).
+Para ligar el código a la hoja, el proyecto bound ya está creado: https://script.google.com/d/1JX9h0KVMX28RMq4WNWfUaaNwo3gpY0sRKomTBiFrDX3yx5t0IEf6UDMO/edit — recarga la hoja para ver el menú **Admin**. Detalles en [docs/INSTALL.md](docs/INSTALL.md). El plan técnico de la prueba está en [docs/PLAN.md](docs/PLAN.md).
 
 ## Cómo probar
 
